@@ -4,3 +4,5 @@ package main
 func BadPanic() { panic("x") }
 
 func SecondSmell() int { return 0/1 }
+
+func ThirdSmell() { _ = recover() }
